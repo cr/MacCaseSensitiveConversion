@@ -48,7 +48,7 @@ $ sudo <path_to_script>/casecheck.py
 and it produced a nightmarishly long list of conflicts that had to be resolved one by one. In my case,
 there were two areas that required special handling. Depending on what programs you use (I expected
 lots of conflict potential for my photo database, but it looks like Aperture had it figured out), you
-might need use their tooling to fix their databases and directories. In fact, where possible, you
+may need to use their tooling to fix their databases and directories. In fact, where possible, you
 should use those instead of manipulating files and directories on the command line directly.
 
 This repo also contains the script ```casecheck_extra.py```, based on my mostly untested quick&dirty
