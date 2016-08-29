@@ -13,4 +13,4 @@ for root, dirs, files in os.walk("."):
 	content = dirs + files
 	for entry in content:
 		if is_casedupe(entry, content):
-			print(root+'/'+a)
+			print(root + "/" + entry)
