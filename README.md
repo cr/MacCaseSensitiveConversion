@@ -12,7 +12,7 @@ like Carbon Copy Cloner or SuperDuper. However, if you're comfortable using the 
 is a way using just onboard, standard tools.
 
 Since it took a very long weekend to figure out all the little obstacles, there might be value in
-sharing the recipie that worked for me. In a nutshell:
+sharing the recipie that worked for me in the end. In a nutshell:
 
  1. Resolve case-sensitivity naming conflicts
  2. Make a fresh TimeMachine backup
@@ -72,7 +72,7 @@ but on my disk there were several conflicts in that tree. To resolve these, you 
 
  1. Boot into the recovery system by pressing *Command-R* on the boot chime
  1. Open the Terminal app from the menu
- 1. Resolve the conflicts on the startup volume mounted in /Volume/<your_disk_name>/System/...
+ 1. Resolve the conflicts on the startup volume mounted in /Volume/YOUR_DISK_NAME/System/...
 
 Where possible I opted for deleting the older file and in case of my duplicate *Plugin* directory, I
 moved the content from one over into the other and deleted the empty directory. So far I encountered
