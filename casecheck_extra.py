@@ -256,10 +256,11 @@ def FastUnicodeCompare(string1, string2):
 		return 1
 
 import os
+
 for root, dirs, files in os.walk("."):
 	content = dirs + files
 	for one in content:
 		for other in content:
 			if FastUnicodeCompare(one, other) != 0:
-                if FastUnicodeCompare(one.lower(), other.lower()) == 0:
-                    print(root + "/" + one)
+				if FastUnicodeCompare(one.lower(), other.lower()) == 0:
+					print(root + "/" + one)
