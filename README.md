@@ -19,7 +19,7 @@ sharing the recipie that worked for me. In a nutshell:
  3. Flip the backups's case-sensitivity flag
  4. Restore from the manipulated backup
 
-This how-to is kept deliberately vague in areas that are sencond nature to Linux geeks. If you
+This how-to is kept deliberately vague in areas that are second nature to Linux geeks. If you
 have a hard time filling in the detail, you might want to get help from a good friend for this
 endeavor anyway.
 
