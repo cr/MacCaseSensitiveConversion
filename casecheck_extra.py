@@ -261,6 +261,6 @@ for root, dirs, files in os.walk("."):
 	content = dirs + files
 	for one in content:
 		for other in content:
-			if FastUnicodeCompare(one, other) != 0:
+			if one != other:
 				if FastUnicodeCompare(one.lower(), other.lower()) == 0:
 					print(root + "/" + one)
