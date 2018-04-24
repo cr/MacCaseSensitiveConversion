@@ -1,13 +1,14 @@
 # The (new) case of Mac Case-Sensitivity
 
 You probably know the story: Unix folks prefer their file systems case-sensitive, and the Mac OS
-Installer lets you readily choose to do so. Life is good. Until you want to run software like Steam
-([no more workaround possible](https://steamcommunity.com/discussions/forum/2/1698294337767925853/)) or Creative Cloud (painful partial workaround). So if you're tired of running
-into the same old traps over and over, you might consider going back to a case-insensitive HFS+ startup
+Installer lets you readily have your way. Life is good. Until you want to run software like Steam
+([no more workaround possible](https://steamcommunity.com/discussions/forum/2/1698294337767925853/)) or
+Creative Cloud (painful partial workaround). And since you landed here, you're likely tired of running
+into the same old traps over and over again, and considering to go back to a case-insensitive HFS+ startup
 volume on your Mac.
 
-Over the years there have been various hacks reported on the Internet, but every one I could find either
-does not work on Mac OS X "El Capitan" 10.11 or later, or involves commercial software
+Over the years there have been various hacks reported on the Internet for this, but every one I could find
+either does not work at all on Mac OS X "El Capitan" 10.11 or later, or involves commercial software
 like Carbon Copy Cloner or SuperDuper. However, if you're comfortable using the command line, there
 is a way using just onboard, standard tools. (Thanks to @kylehovey, this method has been confirmed
 still working on Mac OS X "High Sierra" 10.13.4.)
