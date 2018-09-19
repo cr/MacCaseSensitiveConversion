@@ -4,8 +4,8 @@ import os
 
 for root, dirs, files in os.walk("."):
 	content = dirs + files
-	for one in content:
-		for other in content:
-			if one != other:
-				if one.lower() == other.lower():
-					print(root + "/" + one)
+	all_filenames = set()
+	for filename in content:
+		if filename.lower() in all_filenames:
+			print(root + "/" + one)
+		all_filenames.add(filename.lower())
