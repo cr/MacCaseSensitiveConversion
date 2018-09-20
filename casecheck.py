@@ -7,5 +7,5 @@ for root, dirs, files in os.walk("."):
 	all_filenames = set()
 	for filename in content:
 		if filename.lower() in all_filenames:
-			print(root + "/" + one)
+			print(root + "/" + filename)
 		all_filenames.add(filename.lower())
