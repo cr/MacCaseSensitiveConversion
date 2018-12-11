@@ -11,7 +11,7 @@ Over the years there have been various hacks reported on the Internet for this, 
 either does not work at all on Mac OS X "El Capitan" 10.11 or later, or involves commercial software
 like Carbon Copy Cloner or SuperDuper. However, if you're comfortable using the command line, there
 is a way using just onboard, standard tools. (Thanks to @kylehovey, this method has been confirmed
-still working on Mac OS X "High Sierra" 10.13.4.)
+still working on Mac OS X "High Sierra" 10.13.4 and @nmasnadithya confirmed that it works on Mojave with APFS as well.)
 
 Since it took a very long weekend to figure out all the little obstacles, there might be value in
 sharing the recipe that finally worked for me in the end. In a nutshell:
